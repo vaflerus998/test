@@ -9,8 +9,8 @@
 
 #include "lab8.h"
 
-//~~Ebanina~~
-/* 
+/* ~~Ebanina~~
+
 void initiate_locale(const char* locale_desired, bool print_on_success)
 {
     const char* locale_current;

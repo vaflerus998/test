@@ -1,0 +1,63 @@
+{
+    "workbench.sideBar.location": "right",
+
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+
+    "editor.minimap.autohide": true,
+
+    "editor.rulers":
+    [
+        {
+            "column": 79,
+            "color": "#254925"
+        },
+        
+        {
+            "column": 100,
+            "color": "#254925"
+        },
+    ],
+
+    "workbench.panel.defaultLocation": "left",
+
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+
+        "MSYS2": {
+            "path": "C:\\_vscode_portable\\msys64\\usr\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ],
+            "env": {
+                "MSYSTEM": "UCRT64",
+                "CHERE_INVOKING": "1"
+            }
+        }
+    },
+
+    "terminal.integrated.defaultProfile.windows": "MSYS2",
+
+    "C_Cpp.default.compilerPath": "C:\\_vscode_portable\\w64devkit\\bin\\gcc.exe",
+    
+    "explorer.confirmDelete": false,
+    
+    "workbench.activityBar.location": "top",
+    
+    "extensions.ignoreRecommendations": true,
+    "security.workspace.trust.untrustedFiles": "open"
+}

@@ -1,7 +1,7 @@
 /* Badulin Ilya, group 424-1.
 First year, second semester.
 Laboratory class 8.
-
+123
 Variant: */
 
 #include <stdlib.h>
