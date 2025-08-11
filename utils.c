@@ -9,8 +9,8 @@
 
 #include "lab8.h"
 
-//~~Ebanina~~
-/* 
+/* ~~Ebanina~~
+
 void initiate_locale(const char* locale_desired, bool print_on_success)
 {
     const char* locale_current;
@@ -166,3 +166,7 @@ int f_get_str_strict(FILE* stream, char* buffer, size_t buffer_size)
 
     return check;
 }
+
+
+
+// КАКОЙТО ТЕКСТ

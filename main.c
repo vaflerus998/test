@@ -1,7 +1,7 @@
 /* Badulin Ilya, group 424-1.
 First year, second semester.
 Laboratory class 8.
-
+s
 Variant: */
 
 #include <stdlib.h>
@@ -21,3 +21,5 @@ int main(void)
 
     print_and_exit(EXIT_SUCCESS);
 }
+
+// 123
